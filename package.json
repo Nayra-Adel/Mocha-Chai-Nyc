@@ -1,0 +1,17 @@
+{
+  "name": "mocha_chai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test",
+    "coverage": "nyc --reporter=html npm run test"
+  },
+  "author": "Nayra Adel",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3",
+    "nyc": "^15.1.0"
+  }
+}
